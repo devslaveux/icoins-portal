@@ -8,7 +8,6 @@ const initialState = {
   username: ``,
   password: ``,
   email: '',
-  phone_number: '',
   authCode: '',
   stage: 0,
   error: ''
@@ -75,13 +74,6 @@ class SignUp extends React.Component {
                 placeholder='Email'
                 name='email'
                 value={this.state.email}
-                style={styles.input}
-              />
-              <input
-                onChange={this.handleUpdate}
-                placeholder='Phone Number'
-                name='phone_number'
-                value={this.state.phone_number}
                 style={styles.input}
               />
               <div style={styles.button} onClick={this.signUp}>
