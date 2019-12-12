@@ -4,9 +4,9 @@
   "version": "0.0.9",
   "author": "Isaac Clausman",
   "dependencies": {
-    "aws-amplify": "^2.0.5",
-    "aws-amplify-react": "^1.0.5",
-    "gatsby": "^2.13.45",
+    "aws-amplify": "^2.2.0",
+    "aws-amplify-react": "^3.1.1",
+    "gatsby": "^2.18.11",
     "gatsby-image": "^2.2.7",
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-plugin-offline": "^2.2.4",
